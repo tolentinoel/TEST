@@ -1,4 +1,4 @@
-body{
+body {
     background-color: teal;
 }
 
@@ -6,6 +6,10 @@ h1 {
    color: gold;
   }
 
-  p{
+p {
     color: orange;
   }
+
+#bacon {
+    color:red;
+}
