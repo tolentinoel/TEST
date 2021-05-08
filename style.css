@@ -1,10 +1,10 @@
 body {
-    background-color: teal;
+    background-color: rgb(180, 223, 223);
     text-align: center;
 }
 
 h1 {
-   color: gold;
+   color: rgb(37, 34, 17);
   }
 
 p {
@@ -14,3 +14,21 @@ p {
 #bacon {
     color:red;
 }
+
+/* #one{
+  background-color: blue;
+  width: 130px;
+  height: 130px;
+}
+
+#two{
+  background-color: rgb(53, 117, 1);
+  width: 130px;
+  height: 130px;
+}
+
+#three{
+  background-color: rgb(255, 0, 13);
+  width: 130px;
+  height: 130px;
+} */
