@@ -1,9 +1,10 @@
 import React from 'react'
 import { Feed, Icon } from 'semantic-ui-react';
 import faker from 'faker';
+import './styles/Feed.css';
 
 const FeedExampleBasic = () => (
-  <Feed>
+  <Feed id="mainFeedDiv">
     <Feed.Event>
       <Feed.Label>
         <img src='https://react.semantic-ui.com/images/avatar/small/elliot.jpg' alt='avatar'/>
