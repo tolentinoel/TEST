@@ -54,9 +54,13 @@
   background-color: midnightblue;
 }
 
+#mainAvatar{
+  width: 25%;
+  margin-top: 3em;
+}
+
 #mainContainer{
   z-index: 1;
-  margin-top: 3em;
   display: flex;
   flex-direction: column;
   align-items: center;
