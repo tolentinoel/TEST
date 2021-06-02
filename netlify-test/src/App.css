@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ececee;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.topNav{
+  height: 3em;
+  
+}
+
+.bannerDiv{
+  
+  position: absolute;
+  z-index: -1;
+  height: 15em;
+  width: 100vw;
+  background-color: midnightblue;
+}
+
+#mainContainer{
+  z-index: 1;
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

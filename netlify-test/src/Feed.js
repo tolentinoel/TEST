@@ -10,8 +10,8 @@ const FeedExampleBasic = () => (
         <img src='https://react.semantic-ui.com/images/avatar/small/elliot.jpg' alt='avatar'/>
       </Feed.Label>
       <Feed.Content>
-        <Feed.Summary>
-          <Feed.User>Elliot Fu</Feed.User> added you as a friend
+        <Feed.Summary id="userFeed">
+          <Feed.User >Elliot Fu</Feed.User> added you as a friend
           <Feed.Date>1 Hour Ago</Feed.Date>
         </Feed.Summary>
         <Feed.Meta>
@@ -69,10 +69,12 @@ const FeedExampleBasic = () => (
         </Feed.Summary>
         <Feed.Extra images>
           <a href='/'>
-            <img src='https://react.semantic-ui.com/images/wireframe/image.png' alt="avatar" />
+          <img src={faker.image.image()} alt="avatar" />
+            {/* <img src='https://react.semantic-ui.com/images/wireframe/image.png' alt="avatar" /> */}
           </a>
           <a href ='/'>
-            <img src='https://react.semantic-ui.com/images/wireframe/image.png' alt="avatar"/>
+          <img src={faker.image.image()} alt="avatar" />
+            {/* <img src='https://react.semantic-ui.com/images/wireframe/image.png' alt="avatar"/> */}
           </a>
         </Feed.Extra>
         <Feed.Meta>

@@ -1,9 +1,8 @@
-// import logo from './logo.svg';
 import './App.css';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faAt} from '@fortawesome/free-solid-svg-icons';
-import CommentDetail from './CommentDetail';
-import ApprovalCard from './ApprovalCard';
+// import CommentDetail from './CommentDetail';
+// import ApprovalCard from './ApprovalCard';
 
 import {Card, Icon, Image} from 'semantic-ui-react';
 import FeedExampleBasic from './Feed';
@@ -11,18 +10,16 @@ import FeedExampleBasic from './Feed';
 function App() {
   return (
     <div className="App">
+      <div className="topNav">
+        Yay! you checked out my practice page! Whatchu think? - tolentinoel
+      </div>
       <header className="App-header">
-        <div className="ui container comments" >
-        {/* <ApprovalCard>
-            <CommentDetail
-            author={faker.name.firstName()}
-            timeAgo="Today at 3:30pm"
-            image={faker.image.avatar()}
-            content="Awesome!"
-          />
-        </ApprovalCard> */}
-        
+        <div className="ui container comments" id="mainContainer">
+
         <img src="https://semantic-ui.com/images/avatar2/large/elyse.png" className="ui medium circular image" alt="avatar"/>
+        <div className="bannerDiv">
+          banner
+        </div>
         <Card>
           {/* <Image className="ui medium circular image" src='https://semantic-ui.com/images/avatar2/large/elyse.png' circular ui={false} /> */}
             <Card.Content>
@@ -42,6 +39,15 @@ function App() {
             </Card.Content>
         </Card>
         <FeedExampleBasic />
+
+         {/* <ApprovalCard>
+            <CommentDetail
+            author={faker.name.firstName()}
+            timeAgo="Today at 3:30pm"
+            image={faker.image.avatar()}
+            content="Awesome!"
+          />
+        </ApprovalCard> */}
         </div>
       </header>
     </div>
