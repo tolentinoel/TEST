@@ -37,14 +37,16 @@
   }
 }
 
-
 .topNav{
   height: 3em;
-  
+
 }
 
 .bannerDiv{
-  
+  border-top: midnightblue;
+  border-top-style: solid;
+  border-top-width: 1em;
+  border-top-color: midnightblue;
   position: absolute;
   z-index: -1;
   height: 15em;
