@@ -12,17 +12,14 @@ function App() {
       <header className="App-header">
         <div className="ui container comments" id="mainContainer">
           <img id="mainAvatar" src="https://semantic-ui.com/images/avatar2/large/elyse.png" className="ui medium circular image" alt="avatar"/>
-        <div className="bannerDiv">
-          banner</div>
-        <Card>
+        <div className="bannerDiv">banner</div>
+          <Card>
             <Card.Content>
               <Card.Header>Elyse</Card.Header>
               <Card.Meta>
                 <span className='date'>Joined in 2015</span>
               </Card.Meta>
-              <Card.Description>
-                Elyse is a musician living in Nashville.
-              </Card.Description>
+              <Card.Description>Elyse is a musician living in Nashville.</Card.Description>
             </Card.Content>
             <Card.Content extra>
               <a href="/">
@@ -30,9 +27,9 @@ function App() {
                 22 Friends
               </a>
             </Card.Content>
-        </Card>
-        <FeedExampleBasic />
+          </Card>
 
+          <FeedExampleBasic />
         </div>
       </header>
     </div>
