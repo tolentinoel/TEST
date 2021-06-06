@@ -23,7 +23,6 @@ const FeedExampleBasic = () => (
     </Feed.Event>
 
     <Feed.Event>
-      {/* <Feed.Label image='https://semantic-ui.com/images/avatar/small/ade.jpg' /> */}
       <Feed.Label image={faker.image.avatar()} />
       <Feed.Content>
         <Feed.Summary
@@ -68,14 +67,8 @@ const FeedExampleBasic = () => (
           <Feed.Date>4 days ago</Feed.Date>
         </Feed.Summary>
         <Feed.Extra images>
-          <a href='/'>
-          <img src={faker.image.image()} alt="avatar" />
-            {/* <img src='https://react.semantic-ui.com/images/wireframe/image.png' alt="avatar" /> */}
-          </a>
-          <a href ='/'>
-          <img src={faker.image.image()} alt="avatar" />
-            {/* <img src='https://react.semantic-ui.com/images/wireframe/image.png' alt="avatar"/> */}
-          </a>
+          <a href='/'><img src={faker.image.image()} alt="avatar" /></a>
+          <a href ='/'><img src={faker.image.image()} alt="avatar" /></a>
         </Feed.Extra>
         <Feed.Meta>
           <Feed.Like>
